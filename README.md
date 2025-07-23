@@ -6,10 +6,11 @@ This is a **command-line program** built for the [freeCodeCamp Relational Databa
 
 ## 📁 Project Structure
 
-periodic_table/
-├── element.sh           # Bash script to query element info
-├── periodic_table.sql   # PostgreSQL dump file to restore the full database
-└── README.md            # Project documentation
+    ```bash
+    periodic_table/
+    ├── element.sh           # Bash script to query element info
+    ├── periodic_table.sql   # PostgreSQL dump file to restore the full database
+    └── README.md            # Project documentation
 
 ---
 
@@ -25,6 +26,6 @@ periodic_table/
 
 ## 🧠 Example Usage
 
-### When no argument is passed:
+### Look up info using element's identifier:
   ```bash
   ./element.sh (atomic_number, element_symbol, element_name) 
